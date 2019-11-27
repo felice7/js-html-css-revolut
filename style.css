@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #718093;
+    position: relative;
+    
+}
+
+ ul li {
+     display: inline-block;
+     
+ }
+ 
+ul li a {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    
+}
+
+ul li:hover {
+    
+    background: white;
+}
+
+ul ul {
+    position: absolute;
+    width: 200px;
+    background: lightgrey;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    background: #3498db;
+} 
+
+.child {
+    display: none;
+}
+
+/*sbloccando hover qui sotto animazione funzionante
+
+/* ul li:hover ul {
+    
+    display: block;
+} */
+
+
+/* ul li i {
+    color: black;
+    float: right;
+    padding-left: 20px;
+} */
